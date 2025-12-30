@@ -91,7 +91,7 @@ Version Control	Git & GitHub
 │
 ├── pom.xml
 ├── mvnw / mvnw.cmd
-└── README.md ```
+└── README.md
 
 📎 Appendix — Complete Source Code Reference
 
