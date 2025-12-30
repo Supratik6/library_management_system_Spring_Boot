@@ -420,51 +420,51 @@ Maps Java classes to MySQL tables using JPA annotations
 
 🗄️ Database Design (ER Explanation)
 Entities & Relationships
-User
+>>User
 
-id
+>id
 
-username (unique)
+>username (unique)
 
-password (BCrypt encrypted)
+>password (BCrypt encrypted)
 
-role (ADMIN / STUDENT)
+>role (ADMIN / STUDENT)
 
-enabled
+>enabled
 
-Book
+>>Book
 
-id
+>id
 
-title
+>title
 
-author
+>author
 
-isbn
+>isbn
 
-copies
+>copies
 
-Member
+>Member
 
-id
+>id
 
-name
+>name
 
-role (STUDENT / FACULTY)
+>role (STUDENT / FACULTY)
 
-IssueRecord
+>>IssueRecord
 
-id
+>id
 
-book (Many-to-One)
+>book (Many-to-One)
 
-member (Many-to-One)
+>member (Many-to-One)
 
-issueDate
+>issueDate
 
-returnDate
+>returnDate
 
-status
+>status
 
 🔐 Security Flow (Very Important)
 Authentication
@@ -593,7 +593,7 @@ Production-ready authentication design
 
 This project is for educational purposes.
 
-🙌 Author
+`*Author*`
 
 Supratik
 B.Tech CSE
