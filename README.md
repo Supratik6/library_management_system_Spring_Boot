@@ -32,7 +32,7 @@ Security	Spring Security + BCrypt
 Build Tool	Maven
 Version Control	Git & GitHub
 🗂️ Project Folder Structure
-library-management
+```library-management
 │
 ├── src/main/java/com/library/library
 │   │
@@ -91,7 +91,7 @@ library-management
 │
 ├── pom.xml
 ├── mvnw / mvnw.cmd
-└── README.md
+└── README.md ```
 
 📎 Appendix — Complete Source Code Reference
 
