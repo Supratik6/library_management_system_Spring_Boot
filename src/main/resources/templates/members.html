@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Members</title>
+</head>
+<body>
+
+<h2>Library Members</h2>
+
+<a href="/addMemberForm">Add Member</a> |
+<a href="/">Back</a>
+
+<br><br>
+
+<table border="1" cellpadding="8">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Role</th>
+        <th>Max Issue Limit</th>
+    </tr>
+
+    <tr th:each="member : ${members}">
+        <td th:text="${member.id}"></td>
+        <td th:text="${member.name}"></td>
+        <td th:text="${member.role}"></td>
+        <td th:text="${member.maxIssueLimit}"></td>
+    </tr>
+</table>
+
+</body>
+</html>
